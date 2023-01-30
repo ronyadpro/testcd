@@ -1,0 +1,832 @@
+html,
+body {
+    width: 100%;
+}
+.logo {
+    width: 130px;
+}
+.logo_sm {
+    width: 120px;
+}
+.slider-content-3.animate {
+    width: 1110px;
+    height: 300px;
+    border-radius: 5px;
+}
+.card .animate {
+    height: 100px;
+    width: 120px;
+}
+.img .animate {
+    height: 100px;
+    width: 140px;
+}
+.card__image.animate {
+    height: 100px;
+    width: 140px;
+}
+.card__title {
+    padding: 8px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.card__title.animate {
+    height: 1.5rem;
+    width: 60%;
+    margin: 1rem 1rem 1rem 0.8rem;
+    border-radius: 3px;
+}
+.card__description {
+    padding: 8px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.header-title .animate {
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    margin: auto;
+}
+.title_ctype1 {
+    width: 120px;
+    height: 30px;
+    margin-left: 30px;
+    border-radius: 8px;
+}
+.card .contenttype1 .animate {
+    height: 225px;
+    width: 170px;
+    border-radius: 8px;
+}
+.contenttype1-img {
+    height: 225px;
+    width: 170px;
+    border-radius: 8px;
+}
+.shimmardiv {
+    padding-left: 70px;
+}
+.card__description.animate {
+    height: 1.5rem;
+    width: 60%;
+    margin: 0.1rem 1rem 1rem 0.8rem;
+    border-radius: 3px;
+}
+.animate {
+    animation: shimmer 2s infinite linear;
+    background: linear-gradient(to right, #eff1f3 4%, #e2e2e2 25%, #eff1f3 36%);
+    background-size: 1000px 100%;
+}
+.main-content {
+    visibility: hidden;
+}
+.slick-prev:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f104';
+    color: #666;
+    font-size: 25px;
+}
+.slick-prev {
+    background: #f6f6f6;
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    font-size: 0;
+    left: 0;
+    z-index: 999;
+    top: 70px;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-radius: 4px;
+}
+.slick-next:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f105';
+    top: 100px;
+    color: #666;
+    font-size: 25px;
+}
+.slick-next {
+    background: #f6f6f6;
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    font-size: 0;
+    right: 0;
+    top: 70px;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-radius: 4px;
+}
+.section-margin .slick-prev {
+    background: #f6f6f6;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    font-size: 0;
+    left: 0;
+    z-index: 999;
+    top: 150px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-radius: 4px;
+}
+.section-margin .slick-next {
+    background: #f6f6f6;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    font-size: 0;
+    right: 0;
+    top: 150px;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-radius: 4px;
+}
+.slick-next:focus,
+.slick-next:hover,
+.slick-prev:focus,
+.slick-prev:hover {
+    background: #cfcfcf !important;
+}
+.product-card .card-image .content {
+    padding: 15px 30px 15px 30px;
+}
+.banner-slider {
+}
+.product-card h4 a {
+    padding: 0;
+    display: block;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.product-card .categories {
+    padding: 25px;
+}
+.header-title {
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    margin: auto;
+}
+.slider-contentsm-3.animate {
+    width: 90%;
+    margin-left: 20px;
+    height: 100px;
+}
+.related-section-title .slick-prev {
+    top: 220px;
+}
+.related-section-title .slick-next {
+    top: 220px;
+}
+.pl--10 {
+    padding-left: 10px;
+}
+.ml--20 {
+    margin-left: 20px;
+}
+.ml--15 {
+    margin-left: 15px;
+}
+#card_sm {
+    height: 230px;
+    width: 160px;
+}
+.mt-lg-10 {
+    margin-top: 1px;
+}
+.imgsm {
+    height: 100px;
+    width: 160px;
+}
+.imagesm.animate {
+    height: 230px;
+    width: 160px;
+}
+.ol {
+    margin-left: 15px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.ml-1 {
+    margin-left: 1px;
+}
+.ml-50 {
+    margin-left: 50px;
+}
+.mt-100 {
+    margin-top: 100px;
+}
+.product-details-article {
+    line-height: 1.5em;
+    height: 3.8em;
+    overflow: hidden;
+}
+.pb--10 {
+    padding-bottom: 10px;
+}
+hr {
+    margin-top: 0px;
+}
+.section-title .slick-prev {
+    top: 220px;
+}
+.section-title .slick-next {
+    top: 220px;
+}
+.detailbookimg {
+    width: 80%;
+}
+.follow-button {
+    width: 90px;
+    margin-top: 1px;
+    background: rgb(0, 172, 177);
+    color: #fff;
+    font-weight: 600;
+}
+.nobook {
+    font-weight: 500;
+}
+.audiobooklist {
+    border: 1px solid #e5e5e5;
+    padding: 10px 0px 10px 15px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.tblcouponth {
+    width: 20%;
+}
+.price {
+    font-size: 1.2rem;
+}
+/*====================================*/
+
+/* my css  */
+.slick-prev {
+    left: 0% !important;
+    z-index: 1;
+}
+.slick-next {
+    right: 0% !important;
+    z-index: 1;
+}
+.slides {
+    position: relative;
+}
+.slick-prev,
+.slick-next {
+    position: absolute;
+    top: 50%;
+}
+.slick-next:before,
+.slick-prev:before {
+    color: rgb(45, 110, 142) !important;
+    font-size: 25px;
+}
+.slick-next:focus,
+.slick-next:hover,
+.slick-prev:focus,
+.slick-prev:hover {
+    background-color: #fff !important;
+}
+.slick-dots li button:before {
+    display: none;
+}
+/*	snackbar */
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click 
+	min-width: 250px; /* Set a default minimum width */
+    background-color: #333; /* Black background color */
+    margin-left: -380px;
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 70%; /* Center the snackbar */
+    bottom: 30px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+    visibility: visible; /* Show the snackbar */
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+	However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+/*	snackbar */
+.category {
+    background: #dedede;
+    color: rgb(111, 111, 111);
+    border-radius: 100px;
+    padding: 5px 15px 5px 15px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.category:hover {
+    background: rgb(0, 172, 177);
+    color: #fff;
+}
+#contentDiv {
+    background: rgb(26, 26, 26);
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px 0px 8px 0px;
+}
+.title-cat h4 {
+    font-size: 14px;
+}
+.audioplayerdiv {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ic_close {
+    width: 70%;
+    margin-top: 15px;
+}
+#cd-title {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #fff;
+}
+.lgscreen {
+    display: block;
+}
+.smscreen {
+    display: none;
+}
+.mtsm--30 {
+    margin-top: 0px;
+}
+.text-center {
+    text-align: center;
+}
+.product-card .padding-0 {
+    padding: 0px;
+}
+.padding-0 {
+    padding: 0px;
+}
+article a:hover {
+    color: rgb(0, 172, 177);
+}
+.swal2-title {
+    font-size: 0.95em;
+}
+.pl-50 {
+    padding-left: 50px;
+}
+#cookiecontentDivsm {
+    background: rgb(26, 26, 26);
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px 0px 8px 0px;
+}
+#cookiecontentDiv {
+    display: block;
+    background: rgb(26, 26, 26);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px 0px 8px 0px;
+}
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid rgb(0, 172, 177);
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 100px;
+    bottom: 0;
+    position: fixed;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.product-details-slider .single-slide img {
+    /* margin-left:80px; */
+}
+.product-details-info {
+    margin-left: 70px;
+}
+#content {
+    visibility: hidden;
+}
+.logintext {
+    color: red;
+}
+.loginBtn--facebook {
+    margin-left: 80px;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    background: #1877f2;
+    border: 1px solid #eceff8;
+}
+span.buttonText {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.buttonText {
+    margin-top: 10px;
+}
+.customGPlusSignIn {
+    display: inline-block;
+    background: white;
+    color: #444;
+    width: 150px;
+    height: 50px;
+    border: 2px solid #eceff8;
+    white-space: nowrap;
+}
+.google-icon {
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.fb-icon {
+    width: 22px;
+    height: 22px;
+    margin-left: 22px;
+    margin-top: 10px;
+}
+.bio-img {
+    width: 100%;
+    border-radius: 50%;
+    padding: 10px;
+}
+.product-card .p-10 {
+    padding: 10px;
+}
+#allitemlist {
+    height: 500px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #e6e6e6;
+}
+.playBtn {
+    position: absolute;
+    background-image: url(https://boighor.com/img/homeplay.png);
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+#text_coupon {
+    border: 1px solid #e5e5e5;
+    height: 40px;
+    margin: 0 6px 20px 0;
+    max-width: 100%;
+    padding: 0 0 0 10px;
+    width: 310px;
+    font-family: 'Rufina', serif;
+    font-weight: 400;
+    color: #333;
+}
+#btn_coupon {
+    background: rgb(0, 172, 177);
+    border-radius: 8px;
+    box-shadow: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 15px;
+    text-shadow: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    font-family: 'Rufina', serif;
+    font-weight: 400;
+    border: none;
+}
+.ml-sectionheading {
+    margin-left: 300px;
+    /* text-align: center; */
+}
+@media screen and (max-width: 776px) {
+    .ml-sectionheading {
+        /* text-align: center !important; */
+        margin-left: 40%;
+    }
+}
+@media screen and (max-width: 420px) {
+    #snackbar {
+        visibility: hidden; /* Hidden by default. Visible on click 
+	min-width: 250px; /* Set a default minimum width */
+        background-color: #333; /* Black background color */
+        margin-left: -200px;
+        color: #fff; /* White text color */
+        text-align: center; /* Centered text */
+        border-radius: 2px; /* Rounded borders */
+        padding: 16px; /* Padding */
+        position: fixed; /* Sit on top of the screen */
+        z-index: 1; /* Add a z-index if needed */
+        left: 70%; /* Center the snackbar */
+        bottom: 30px; /* 30px from the bottom */
+    }
+    #cookiecontentDiv {
+        display: none;
+    }
+    #cookiecontentDivsm {
+        display: block;
+    }
+
+    .mt-sm-10 {
+        margin-top: 0px;
+    }
+    .mb-sm-10 {
+        margin-bottom: 10px;
+    }
+
+    .banner-slider {
+        margin-left: 12px;
+    }
+    .loginBtn--facebook {
+        margin-left: 0px;
+    }
+    product-details-info {
+        margin-left: 0px;
+    }
+    .product-details-slider .single-slide img {
+        margin-left: 0px;
+    }
+    .mtsm--30 {
+        margin-top: 30px;
+    }
+    .playbtnsm {
+        width: 60%;
+    }
+    .lgscreen {
+        display: none;
+    }
+    .smscreen {
+        display: block;
+    }
+    #splash {
+        display: none;
+    }
+    #splash_sm {
+        display: block;
+    }
+    .ic_close {
+        margin-left: 18px;
+        width: 50%;
+    }
+    .product-card .categories {
+        padding: 15px;
+    }
+
+    .product-card h4 a {
+        padding: 0;
+        display: block;
+        text-transform: capitalize;
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 18px;
+    }
+
+    .slick-prev {
+        background: #f6f6f6;
+        width: 30px;
+        height: 40px;
+        position: absolute;
+        font-size: 0;
+        left: 0;
+        z-index: 1;
+        top: 70px;
+    }
+
+    .slick-prev:before {
+        font-size: 15px;
+    }
+
+    .slick-next {
+        background: #f6f6f6;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        font-size: 0;
+        right: 0;
+        top: 60px;
+    }
+
+    .slick-next:before {
+        font-size: 15px;
+    }
+
+    .section-margin .slick-prev {
+        top: 100px;
+    }
+    .section-margin .slick-next {
+        top: 100px;
+    }
+    .mt-30 {
+        margin-top: 0px;
+    }
+    .mb-30 {
+        margin-bottom: 10px;
+    }
+    .product-details-info {
+        margin-left: 0px;
+    }
+    .sb-custom-tab .nav.nav-tabs .nav-item {
+        margin-bottom: 15px;
+    }
+    .related-section-title .slick-prev {
+        top: 190px;
+    }
+    .related-section-title .slick-next {
+        top: 190px;
+    }
+    .related-section-title h2 {
+        font-size: 18px;
+    }
+    .pl-50 {
+        padding-left: 0px;
+    }
+    .ml-50 {
+        margin-left: 0px;
+    }
+    .mt-100 {
+        margin-top: 20px;
+    }
+    .bookdetail_img {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .cart-summary-button {
+        float: right;
+    }
+}
+@media screen and (max-width: 360px) {
+    #snackbar {
+        visibility: hidden; /* Hidden by default. Visible on click 
+	min-width: 250px; /* Set a default minimum width */
+        background-color: #333; /* Black background color */
+        margin-left: -200px;
+        color: #fff; /* White text color */
+        text-align: center; /* Centered text */
+        border-radius: 2px; /* Rounded borders */
+        padding: 16px; /* Padding */
+        position: fixed; /* Sit on top of the screen */
+        z-index: 1; /* Add a z-index if needed */
+        left: 70%; /* Center the snackbar */
+        bottom: 30px; /* 30px from the bottom */
+    }
+    .product-details-info {
+        margin-left: 0px;
+    }
+    .loginBtn--facebook {
+        margin-left: 0px;
+        width: 120px;
+    }
+    span.buttonText {
+        padding-left: 0px;
+    }
+    .fb-icon {
+        margin-left: 10px;
+    }
+    .customGPlusSignIn {
+        width: 120px;
+    }
+    .google-icon {
+        margin-left: 18px;
+    }
+    .ml-50 {
+        margin-left: 0px;
+    }
+    .mt-100 {
+        margin-top: 20px;
+    }
+    .ic_close {
+        margin-left: 15px;
+        height: 20px;
+    }
+    #cookiecontentDiv {
+        display: none;
+    }
+    #cookiecontentDivsm {
+        display: block;
+    }
+
+    .sb-custom-tab .nav.nav-tabs .nav-item {
+        margin-bottom: 10px;
+    }
+    .related-section-title .slick-prev {
+        top: 150px;
+    }
+    .related-section-title .slick-next {
+        top: 150px;
+    }
+    .related-section-title h2 {
+        font-size: 18px;
+    }
+    .pl-50 {
+        padding-left: 15px;
+    }
+    .bookdetail_img {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+.slick-slide img {
+    width: 100%;
+}
