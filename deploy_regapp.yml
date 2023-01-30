@@ -2,11 +2,6 @@
 - hosts: dockerhost
 
   tasks:
-
-  - name: change owner ship
-    command: sudo chmod 777 /var/run/docker.sock
-    ignore_errors: yes
-
   - name: stop existing container
     command: docker stop regapp-server
     ignore_errors: yes
