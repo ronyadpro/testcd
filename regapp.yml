@@ -1,0 +1,20 @@
+---
+- hosts: ansible
+
+  tasks:
+  - name: Unarchive a file that is already on the remote machine
+    ansible.builtin.unarchive:
+      src: /opt/docker/foo.zip
+      dest: /opt/docker
+      remote_src: yes
+
+  - name: create docker image
+    command: docker build -t regapp:latest .
+    args:
+      chdir: /opt/docker
+
+  - name: create tag to push
+    command: docker tag regapp:latest ronyad/regapp:latest
+
+  - name: push to image
+    command: docker push ronyad/regapp:latest
