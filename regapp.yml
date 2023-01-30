@@ -2,12 +2,6 @@
 - hosts: ansible
 
   tasks:
-  - name: Unarchive a file that is already on the remote machine
-    ansible.builtin.unarchive:
-      src: /opt/docker/foo.zip
-      dest: /opt/docker
-      remote_src: yes
-
   - name: create docker image
     command: docker build -t regapp:latest .
     args:
