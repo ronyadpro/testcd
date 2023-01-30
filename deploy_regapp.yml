@@ -4,7 +4,7 @@
   tasks:
 
   - name: change owner ship
-    command: sudo chmod 777 docker.sock
+    command: sudo chmod 777 /var/run/docker.sock
     ignore_errors: yes
 
   - name: stop existing container
